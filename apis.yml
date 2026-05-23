@@ -1,0 +1,171 @@
+aid: fleetcor
+name: Corpay (formerly FLEETCOR)
+description: >-
+  Corpay is a global S&P 500 corporate payments company (NYSE: CPAY) that
+  resulted from the March 2024 rebrand of FLEETCOR Technologies. The company
+  serves more than 800,000 business clients across 200+ countries in 140+
+  currencies and processed approximately $400 billion in payments in 2024 with
+  reported revenue of about $4.0B. Corpay operates across five product lines
+  built largely through acquisition — Commercial Cards (including Corpay
+  Mastercard), AP Automation (extended by the 2024 acquisition of Paymerang),
+  Cross-Border Payments (built on the 2017 acquisition of Cambridge Global
+  Payments and the 2025 acquisition of Alpha Group International), Fuel &
+  Fleet Cards (the original FLEETCOR business plus the 2014 acquisition of
+  Comdata), and Workforce Lodging & Travel. Despite this scale, Corpay does
+  not operate a public developer portal — there is no developer.corpay.com,
+  no public OpenAPI catalog, no public GitHub presence, and no self-service
+  API key issuance. All integration surfaces (ERP connectors for NetSuite,
+  Sage, Microsoft Dynamics, QuickBooks, Acumatica, CMiC, Deltek, Trimble; the
+  former Cambridge cross-border payments API; AP-automation API hooks) are
+  sales-led and gated behind enterprise contracts.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+position: Consumer
+created: '2026-05-22'
+modified: '2026-05-23'
+tags:
+  - B2B Payments
+  - Corporate Payments
+  - Fleet Cards
+  - Fuel Cards
+  - Commercial Cards
+  - AP Automation
+  - Accounts Payable
+  - Cross-Border Payments
+  - Foreign Exchange
+  - Lodging
+  - Expense Management
+  - ERP Integration
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/fleetcor/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: fleetcor:commercial-cards
+    name: Corpay Commercial Cards
+    description: >-
+      Corpay's commercial card portfolio covers the Corpay Mastercard, Corpay
+      World Elite Mastercard, virtual / ghost cards, and supplier-direct
+      payment cards. Integration with ERP and expense systems is delivered
+      through Corpay-managed connectors rather than a public REST API; there
+      is no public developer portal, OpenAPI, or self-service issuance.
+    humanURL: https://www.corpay.com/commercial-cards
+    tags:
+      - Commercial Cards
+      - Virtual Cards
+      - Mastercard
+      - Expense Management
+      - Spend Management
+    properties:
+      - type: ProductPage
+        url: https://www.corpay.com/commercial-cards
+      - type: Website
+        url: https://www.corpay.com
+  - aid: fleetcor:ap-automation
+    name: Corpay AP Automation
+    description: >-
+      Corpay's AP automation platform covers invoice capture and approval
+      routing, payments automation across virtual card / ACH / check, purchase
+      order automation with PO-to-invoice matching, and pre-built ERP
+      connectors for NetSuite, Sage, Microsoft Dynamics, QuickBooks,
+      Acumatica, CMiC, Deltek, and Trimble. The platform was extended by the
+      2024 acquisition of Paymerang. Integration is delivered through
+      Corpay-managed ERP connectors — there is no public developer portal,
+      no public OpenAPI, and no self-service API key issuance.
+    humanURL: https://www.corpay.com/ap-automation
+    tags:
+      - AP Automation
+      - Accounts Payable
+      - Invoice Automation
+      - Payments Automation
+      - Purchase Orders
+      - ERP Integration
+      - NetSuite
+      - Sage
+      - QuickBooks
+    properties:
+      - type: ProductPage
+        url: https://www.corpay.com/ap-automation
+      - type: Integrations
+        url: https://www.corpay.com/ap-automation
+  - aid: fleetcor:cross-border
+    name: Corpay Cross-Border Payments
+    description: >-
+      Corpay Cross-Border (formerly Cambridge Global Payments, acquired in
+      2017 for $690M, and further expanded by the 2025 $2.2B acquisition of
+      Alpha Group International) processes 4.1+ million payments annually
+      across 200+ countries for 21,000+ customers, with currency-risk
+      management, multi-currency accounts, global invoice automation, and an
+      FX trading portal. Although a Cambridge-era developer / API surface
+      historically existed for financial institutions and partners, no public
+      developer portal or OpenAPI is currently exposed under corpay.com.
+    humanURL: https://www.corpay.com/cross-border
+    tags:
+      - Cross-Border Payments
+      - International Payments
+      - Foreign Exchange
+      - FX
+      - Currency Risk
+      - Multi-Currency
+      - Cambridge Global Payments
+    properties:
+      - type: ProductPage
+        url: https://www.corpay.com/cross-border
+  - aid: fleetcor:fuel-fleet-cards
+    name: Corpay Fuel & Fleet Cards
+    description: >-
+      The original FLEETCOR business line, covering fuel cards, fleet cards,
+      and trucking-focused payments — including the Comdata brand (acquired
+      2014 for $3.45B) for the over-the-road trucking market. Card issuance,
+      authorization controls, reporting, and fleet-management integrations
+      are delivered through Corpay-managed channels; there is no public
+      developer portal or OpenAPI for these products.
+    humanURL: https://www.corpay.com/fuel-cards
+    tags:
+      - Fuel Cards
+      - Fleet Cards
+      - Trucking
+      - Comdata
+      - Fleet Management
+    properties:
+      - type: ProductPage
+        url: https://www.corpay.com/fuel-cards
+  - aid: fleetcor:lodging
+    name: Corpay Workforce Lodging & Travel
+    description: >-
+      Corpay's lodging and corporate travel offering for workforces with
+      project, crew, and contractor lodging needs — booking, management, and
+      consolidated billing. No public developer or API surface.
+    humanURL: https://www.corpay.com/workforce-lodging
+    tags:
+      - Lodging
+      - Travel
+      - Workforce
+      - Corporate Travel
+    properties:
+      - type: ProductPage
+        url: https://www.corpay.com/workforce-lodging
+common:
+  - type: Website
+    url: https://www.corpay.com
+  - type: LegacyWebsite
+    url: https://www.fleetcor.com
+  - type: About
+    url: https://www.corpay.com/about
+  - type: InvestorRelations
+    url: https://investor.corpay.com
+  - type: NYSETicker
+    url: https://www.nyse.com/quote/XNYS:CPAY
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/corpay
+  - type: PrivacyPolicy
+    url: https://www.corpay.com/privacy-policy
+  - type: TermsOfService
+    url: https://www.corpay.com/terms-of-use
+  - type: Contact
+    url: https://www.corpay.com/contact
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Corpay
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
