@@ -146,6 +146,8 @@ apis:
       - type: ProductPage
         url: https://www.corpay.com/workforce-lodging
 common:
+  - type: DomainSecurity
+    url: security/fleetcor-domain-security.yml
   - type: Website
     url: https://www.corpay.com
   - type: LegacyWebsite
