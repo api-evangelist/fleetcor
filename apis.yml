@@ -43,7 +43,7 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fleetcor.png
 access: 3rd-Party
-position: Consumer
+position: Consuming
 created: '2026-05-22'
 modified: '2026-05-23'
 tags:
