@@ -45,7 +45,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fleetcor.p
 access: 3rd-Party
 position: Consuming
 created: '2026-05-22'
-modified: '2026-05-23'
+modified: '2026-10-06'
 tags:
   - B2B Payments
   - Corporate Payments
@@ -168,6 +168,8 @@ apis:
       - type: ProductPage
         url: https://www.corpay.com/workforce-lodging
 common:
+  - url: https://www.corpay.com/resources/blog
+    type: Blog
   - type: DomainSecurity
     url: security/fleetcor-domain-security.yml
   - type: Website
