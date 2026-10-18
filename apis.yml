@@ -126,6 +126,13 @@ apis:
       - Cross-Border Payments
       - International Payments
       - Foreign Exchange
+      - Currency Risk
+      - Multi-Currency
+      - Cambridge Global Payments
+    tags_raw:
+      - Cross-Border Payments
+      - International Payments
+      - Foreign Exchange
       - FX
       - Currency Risk
       - Multi-Currency
